@@ -16,7 +16,7 @@ from streamlit_folium import folium_static
 
 st.set_page_config( page_title='Visão Restaurantes', page_icon='🍽️', layout='wide' )
 
-df = pd.read_csv( '../dataset/train.csv' )
+df = pd.read_csv( 'dataset/train.csv' )
 
 df1 = df.copy()
 
